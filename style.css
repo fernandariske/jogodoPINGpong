@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    background-color: #2e7cd4;
+}
+#dvPainel{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.itemPainel{
+    margin: 5px;
+}
+#dvJogo{
+    width: 960px;
+    height: 500px;
+    border: 1px solid #151518;
+    background-color: #151518
+}
+#dvBola{
+    position: absolute;
+    top: 340px;
+    left: 500px;
+    width: 40px;
+    height: 40px;
+    background-color: #17e2fdec;
+}
+.barra{
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: #1073f5;
+    top: 150px;
+}
+.esquerda{
+    left: 10px;
+}
+.direita{
+    left: 930px;
+}
